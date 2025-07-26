@@ -14,7 +14,7 @@ Three time series forecasting models are implemented and compared:
 2. **Auto-ARIMAX** – Advanced model including external factors.  
 3. **Facebook Prophet** – Modern forecasting library designed for business time series.  
 
-The final output compares model performance using **Root Mean Squared Error (RMSE)** and visualizes forecasts vs. actual sales data.
+The final output compares model performance using **Root Mean Squared Error (RMSE) , Mean Absolute Error (MAE), and Mean Absolute Percentage Error (MAPE)**.It also visualizes forecasts against actual sales data
 
 ---
 
@@ -55,7 +55,7 @@ The final output compares model performance using **Root Mean Squared Error (RMS
 - **Prophet:** Configured with yearly seasonality + engineered regressors.
 
 ### **Step 7: Final Results and Visualization 📉**
-- Compares RMSE for all three models.  
+- Compares key performance metrics (RMSE, MAE, MAPE) for all three models.  
 - Plots historical data, test data, and model forecasts for easy visual comparison.
 
 ---
@@ -78,7 +78,7 @@ python your_script_name.py
 Or execute the cells in a Jupyter Notebook/Google Colab.
 
 ## 4. Results 💻
-The script prints RMSE for each model and identifies the best-performing one.
+The script prints performance metrics (RMSE, MAE, and MAPE) for each model and identifies the best-performing one.
 
 The forecast visualization compares predicted vs. actual sales.
 
