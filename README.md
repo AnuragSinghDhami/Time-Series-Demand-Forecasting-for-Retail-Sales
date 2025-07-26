@@ -1,4 +1,4 @@
-# Demand Forecasting with Time Series Models
+# Time-Series-Demand-Forecasting-for-Retail-Sales 
 
 ## 1. Overview
 This project performs demand forecasting on a retail dataset (**demand.csv**). It analyzes historical sales data to predict future units sold, following a complete data science workflow:
